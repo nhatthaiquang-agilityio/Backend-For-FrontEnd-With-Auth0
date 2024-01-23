@@ -15,6 +15,8 @@ This repository contains a React SPA supported by an ASP.NET Core backend to imp
 5. While in the `BFF` folder, type `dotnet run` in a terminal window to launch the web application.
 6. Point your browser to `https://localhost:5001` to interactively test your application.
 
+## Result
++ ![WeatherForcast](./images/weatherforcast.png)
 ## Issues:
 1. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
 
