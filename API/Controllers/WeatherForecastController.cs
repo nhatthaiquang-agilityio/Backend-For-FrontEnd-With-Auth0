@@ -24,7 +24,7 @@ namespace Api.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        [Authorize("read:weather")]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();

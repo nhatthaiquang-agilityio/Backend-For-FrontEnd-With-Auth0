@@ -6,6 +6,7 @@ This repository contains a React SPA supported by an ASP.NET Core backend to imp
 
 - [.NET Core 8.0](https://dotnet.microsoft.com/download/dotnet-core/5.0) installed on your machine.
 - An [Auth0](https://auth0.com/) account.
+    + Create a Regular Application
 
 ## To run this application:
 1. Move to the `Api` folder.
