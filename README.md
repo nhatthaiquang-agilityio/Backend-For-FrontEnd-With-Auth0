@@ -3,7 +3,6 @@ This repository contains a React SPA supported by an ASP.NET Core backend to imp
 
 
 ## Requirements:
-
 - [.NET Core 8.0](https://dotnet.microsoft.com/download/dotnet-core/5.0) installed on your machine.
 - An [Auth0](https://auth0.com/) account.
     + Create a Regular Application
@@ -17,7 +16,7 @@ This repository contains a React SPA supported by an ASP.NET Core backend to imp
 6. Point your browser to `https://localhost:5001` to interactively test your application.
 
 ## Result
-+ ![WeatherForcast](./images/weatherforcast.png)
++ ![WeatherForecast](./images/weatherforecast.png)
 ## Issues:
 1. System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
 

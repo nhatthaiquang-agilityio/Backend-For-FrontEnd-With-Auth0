@@ -37,9 +37,6 @@ namespace BackendForFrontend.Controllers
         {
             var accessToken = await HttpContext.GetTokenAsync("Auth0", "access_token");
 
-            Console.WriteLine("accessToken");
-            Console.WriteLine(accessToken);
-
             var httpClient = _httpClientFactory.CreateClient();
 
             var request = new HttpRequestMessage(HttpMethod.Get, new Uri(_apiEndpoint, "WeatherForecast"));
@@ -47,8 +44,6 @@ namespace BackendForFrontend.Controllers
 
             var response = await httpClient.SendAsync(request);
 
-            Console.WriteLine("handle response");
-            Console.WriteLine(response);
             response.EnsureSuccessStatusCode();
 
             await response.Content.CopyToAsync(HttpContext.Response.Body);
